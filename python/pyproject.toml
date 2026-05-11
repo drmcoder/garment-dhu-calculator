@@ -1,0 +1,51 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "garment-dhu-calculator"
+version = "1.0.0"
+description = "DHU (Defects Per Hundred Units) calculator for garment industry quality control. Daily QC metric used across the garment industry. Includes defect-type breakdown and daily aggregation across multiple checkers. Built and used in production by Scan ERP."
+readme = "README.md"
+requires-python = ">=3.7"
+license = { text = "MIT" }
+authors = [
+    { name = "Santosh Rijal", email = "noreply@scanerp.pro" },
+]
+keywords = [
+    "dhu",
+    "defects-per-hundred-units",
+    "garment-qc",
+    "quality-control",
+    "defect-rate",
+    "garment-industry",
+    "apparel",
+    "manufacturing",
+    "cmt-factory",
+    "production-quality",
+    "qc-metrics",
+    "scan-erp",
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Manufacturing",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Office/Business",
+    "Topic :: Scientific/Engineering",
+]
+
+[project.urls]
+Homepage = "https://scanerp.pro/blog/reduce-rejection-rate-dhu-garment-factory.html"
+Repository = "https://github.com/drmcoder/garment-dhu-calculator"
+Issues = "https://github.com/drmcoder/garment-dhu-calculator/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]

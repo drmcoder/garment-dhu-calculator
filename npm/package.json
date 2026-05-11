@@ -1,0 +1,40 @@
+{
+  "name": "garment-dhu-calculator",
+  "version": "1.0.0",
+  "description": "DHU (Defects Per Hundred Units) calculator for garment industry quality control. Daily QC metric used across the garment industry. Includes defect-type breakdown and daily aggregation across multiple checkers. Built and used in production by Scan ERP.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "dhu",
+    "defects-per-hundred-units",
+    "garment-qc",
+    "quality-control",
+    "defect-rate",
+    "garment-industry",
+    "apparel",
+    "manufacturing",
+    "cmt-factory",
+    "production-quality",
+    "qc-metrics",
+    "scan-erp"
+  ],
+  "homepage": "https://scanerp.pro/blog/reduce-rejection-rate-dhu-garment-factory.html",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drmcoder/garment-dhu-calculator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/drmcoder/garment-dhu-calculator/issues"
+  },
+  "author": {
+    "name": "Santosh Rijal",
+    "url": "https://scanerp.pro"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=14"
+  }
+}
