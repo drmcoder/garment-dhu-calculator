@@ -1,6 +1,6 @@
 {
   "name": "garment-dhu-calculator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "DHU (Defects Per Hundred Units) calculator for garment industry quality control. Daily QC metric used across the garment industry. Includes defect-type breakdown and daily aggregation across multiple checkers. Built and used in production by Scan ERP.",
   "main": "index.js",
   "types": "index.d.ts",
