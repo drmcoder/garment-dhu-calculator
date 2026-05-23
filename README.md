@@ -62,3 +62,20 @@ MIT © Santosh Rijal / [Scan ERP](https://scanerp.pro/)
 - [garment-cmt-cost](https://github.com/drmcoder/garment-cmt-cost)
 - [garment-smv-calculator](https://www.npmjs.com/package/garment-smv-calculator)
 - [garment-piece-rate](https://www.npmjs.com/package/garment-piece-rate)
+
+
+## Related Packages — Scan ERP Garment Toolkit
+
+Part of the [Scan ERP open-source garment toolkit](https://scanerp.pro) — production-tested utilities for CMT factory operations, all MIT licensed:
+
+- [aql-sample-size](https://github.com/drmcoder/aql-sample-size) — ISO 2859-1 sample-size lookup (zero-dependency data library)
+- [garment-aql-calculator](https://www.npmjs.com/package/garment-aql-calculator) — Full AQL inspection decision engine with pass/fail logic
+- [garment-bundle-id](https://www.npmjs.com/package/garment-bundle-id) — Bundle QR code generator + parser (STYLE-LOT-COLOR-SIZE-BUNDLE# format)
+- [garment-cmt-cost](https://www.npmjs.com/package/garment-cmt-cost) — CMT cost calculator with 13-country CPM comparison
+- [garment-dhu-calculator](https://www.npmjs.com/package/garment-dhu-calculator) — Defects Per Hundred Units with defect-type breakdown + multi-checker aggregation
+- [garment-fabric-consumption](https://www.npmjs.com/package/garment-fabric-consumption) — Fabric consumption (knit GSM × area, woven marker length)
+- [garment-line-efficiency](https://www.npmjs.com/package/garment-line-efficiency) — Line efficiency, target output, line balance / bottleneck detection
+- [garment-piece-rate](https://www.npmjs.com/package/garment-piece-rate) — Piece-rate earnings calculator with bonuses and overtime
+- [garment-smv-calculator](https://www.npmjs.com/package/garment-smv-calculator) — Stopwatch SMV/SAM with Westinghouse performance rating
+
+See the curated [awesome-garment-erp](https://github.com/drmcoder/awesome-garment-erp) list for the full Scan ERP ecosystem, or visit [scanerp.pro](https://scanerp.pro) for the production garment manufacturing ERP this toolkit powers.
